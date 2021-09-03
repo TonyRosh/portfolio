@@ -10,64 +10,64 @@ function Navbar() {
                     <NavLink
                         to="/"
                         exact
-                        className="inline-flex items-center text-center py-3 px-3 mr-3 text-purple-900 hover:text-yellow-500 text-3xl font-bold cursive traking-widest"
+                        className="inline-flex items-center text-center py-2 px-2 mr-2 text-white hover:text-gray-500 text-3xl font-bold cursive traking-widest"
                     >
                         Tony Roscioli
                     </NavLink>
                     <NavLink
-                        to="/post"
-                        className="inline-flex items-center my-12 mx-1 mr-1 rounded text-yellow-500 text-center hover:text-purple-900"
-                        activeClassName="text-purple-900 bg-yellow-500"
+                        to="/about"
+                        className="inline-flex items-center my-12 mx-1 mr-1 rounded text-white text-center hover:text-gray-500"
+                        activeClassName="text-gray-500 bg-white"
                     >
-                        Blog Posts
+                        About Me!
                     </NavLink>
                     <NavLink
                         to="/project"
-                        className="inline-flex items-center my-12 mx-1 mr-1 rounded text-yellow-500 text-center hover:text-purple-900"
-                        activeClassName="text-purple-900 bg-yellow-500"
+                        className="inline-flex items-center my-12 mx-1 mr-1 rounded text-white text-center hover:text-gray-500"
+                        activeClassName="text-gray-500 bg-white"
                     >
                         Projects
                     </NavLink>
                     <NavLink
-                        to="/about"
-                        className="inline-flex items-center my-12 mx-1 mr-1 rounded text-yellow-500 text-center hover:text-purple-900"
-                        activeClassName="text-purple-900 bg-yellow-500"
+                        to="/post"
+                        className="inline-flex items-center my-12 mx-1 mr-1 rounded text-white text-center hover:text-gray-500"
+                        activeClassName="text-gray-500 bg-white"
                     >
-                        About Me!
+                        Blog Posts
                     </NavLink>
                 </nav>
-                <div className="inline-flex py-3 px-3 my-6 items-center">
+                <div className="inline-flex py-2 px-2 my-5 items-center absolute right-0">
                     <SocialIcon
                         url="https://www.linkedin.com/in/tony-roscioli-dev/"
-                        className="mr-4"
+                        className="mr-3"
                         target="_blank"
                         fgColor="#fff"
                         style={{ height: 35, width: 35 }}
                     />
                     <SocialIcon
                         url="https://github.com/TonyRosh"
-                        className="mr-4"
+                        className="mr-3"
                         target="_blank"
                         fgColor="#fff"
                         style={{ height: 35, width: 35 }}
                     />
                     <SocialIcon
                         url="https://www.facebook.com/tony.roscioli"
-                        className="mr-4"
+                        className="mr-3"
                         target="_blank"
                         fgColor="#fff"
                         style={{ height: 35, width: 35 }}
                     />
                     <SocialIcon
                         url="https://twitter.com/tonyRoscioli"
-                        className="mr-4"
+                        className="mr-3"
                         target="_blank"
                         fgColor="#fff"
                         style={{ height: 35, width: 35 }}
                     />
                     <SocialIcon
                         url="https://medium.com/@TonyRosh"
-                        className="mr-4"
+                        className="mr-3"
                         target="_blank"
                         fgColor="#fff"
                         style={{ height: 35, width: 35 }}
