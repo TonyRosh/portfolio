@@ -22,7 +22,12 @@ export class Home extends Component {
     camera.position.setX(0);
     camera.position.setY(0);
 
-    
+    const controls = new OrbitControls( camera, renderer.domElement );
+      controls.maxDistance = 226.5;
+      controls.enablePan = false;
+      controls.enableDamping = true;
+      controls.dampingFactor = .03;
+      controls.update();
 
     const pointLight = new THREE.PointLight(0xffffff);
     pointLight.position.set(5, 5, 5);
@@ -315,6 +320,7 @@ if ( intersects.length > 0 ) {
       lastCube.rotation.y += 0.005;
 
       renderer.render(scene, camera);
+      controls.update();
     };
 
     function moveCamera() {
@@ -323,21 +329,6 @@ if ( intersects.length > 0 ) {
       camera.position.z = top * -0.01;
       camera.position.x = top * -0.0002;
       camera.position.y = top * -0.0002;
-
-      const controls = new OrbitControls( camera, renderer.domElement );
-      controls.maxDistance = 226.5;
-      controls.enablePan = false;
-      controls.enableDamping = true;
-      controls.dampingFactor = .03;
-      controls.update();
-      let animate = function () {
-        requestAnimationFrame(animate);
-        controls.update();
-  
-  
-        renderer.render(scene, camera);
-      };
-      animate();
 
     }
     window.onscroll = moveCamera;
