@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import * as THREE from "three";
 // import { Vector3 } from "three";
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import NavbarHome from "./NavbarHome";
+// import NavbarHome from "./NavbarHome";
 export class Home extends Component {
 
   componentDidMount() {
