@@ -285,9 +285,9 @@ if ( intersects.length > 0 ) {
 
     scene.add(centerCube);
 
-    centerCube.position.z = 219.33;
-    centerCube.position.x = 4;
-    centerCube.position.y = 4;
+    centerCube.position.z = 0;
+    centerCube.position.x = 0;
+    centerCube.position.y = 0;
 
 
 
