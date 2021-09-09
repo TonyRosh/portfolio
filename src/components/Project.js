@@ -1,10 +1,11 @@
 import React from 'react'
+import Typing from "./Typing";
 
 function Project() {
     return (
-        <h1>
-            Project!
-        </h1>
+        <div>
+            <Typing />
+        </div>
     )
 }
 

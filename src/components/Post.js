@@ -1,10 +1,11 @@
 import React from 'react'
+import Typing from "./Typing";
 
 function Post() {
     return (
-        <h1>
-            Post!
-        </h1>
+        <div>
+            <Typing />
+        </div>
     )
 }
 

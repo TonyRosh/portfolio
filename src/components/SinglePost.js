@@ -1,10 +1,11 @@
 import React from 'react'
+import Typing from "./Typing";
 
 function SinglePost() {
     return (
-        <h1>
-            Single post!
-        </h1>
+        <div>
+            <Typing />
+        </div>
     )
 }
 
