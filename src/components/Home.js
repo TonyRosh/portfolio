@@ -272,7 +272,7 @@ if ( intersects.length > 0 ) {
 
     scene.add(lastCube);
 
-    lastCube.position.z = 119.33;
+    lastCube.position.z = 219.33;
     lastCube.position.x = 4;
     lastCube.position.y = 4;
 
