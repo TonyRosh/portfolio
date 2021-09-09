@@ -267,9 +267,9 @@ if ( intersects.length > 0 ) {
 
     scene.add(lastCube);
 
-    lastCube.position.z = 7.77;
-    lastCube.position.x = 0;
-    lastCube.position.y = 0;
+    lastCube.position.z = 158.33;
+    lastCube.position.x = 3;
+    lastCube.position.y = 3;
 
     function addStarYellow() {
       const geometry = new THREE.SphereGeometry(0.075, 0.5, 0.5);
@@ -343,6 +343,15 @@ if ( intersects.length > 0 ) {
     window.onscroll = moveCamera;
     moveCamera();
     animate();
+
+    function autoScroll() {
+      let element = document.querySelector(".home")
+      element.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+    }
+
+    autoScroll();
+
+    console.log("CAMERAAAAA", camera.position)
 
   }
   
