@@ -27,6 +27,10 @@ export class Home extends Component {
       controls.enablePan = false;
       controls.enableDamping = true;
       controls.dampingFactor = .03;
+      controls.touches = {
+        ONE: THREE.TOUCH.ROTATE,
+        TWO: THREE.TOUCH.DOLLY_PAN
+      }
       controls.update();
 
     const pointLight = new THREE.PointLight(0xffffff);
@@ -243,7 +247,7 @@ export class Home extends Component {
 
       
     
-    const linkCubeTexture = new THREE.TextureLoader().load('https://i.imgur.com/gvoQNlW.jpg');
+    const linkCubeTexture = new THREE.TextureLoader().load('https://i.imgur.com/RWn66Lw.jpg');
 
     const lastCube = new THREE.Mesh(
       new THREE.BoxGeometry(4.2, 4.2, 4.2),
@@ -272,7 +276,7 @@ if ( intersects.length > 0 ) {
 
     scene.add(lastCube);
 
-    lastCube.position.z = 218.25;
+    lastCube.position.z = 217.5;
     lastCube.position.x = 4;
     lastCube.position.y = 4;
 
@@ -342,6 +346,9 @@ if ( intersects.length > 0 ) {
 
     function moveCamera() {
       const top = document.body.getBoundingClientRect().top;
+
+      lastCube.rotation.y += 0.005;
+      centerCube.rotation.y += 0.005;
 
       camera.position.z = top * -0.01;
       camera.position.x = top * -0.0002;
