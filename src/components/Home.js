@@ -272,9 +272,46 @@ if ( intersects.length > 0 ) {
 
     scene.add(lastCube);
 
-    lastCube.position.z = 219.33;
+    lastCube.position.z = 218.25;
     lastCube.position.x = 4;
     lastCube.position.y = 4;
+
+
+    const centerCubeTexture = new THREE.TextureLoader().load('https://i.imgur.com/gvoQNlW.jpg');
+
+    const centerCube = new THREE.Mesh(
+      new THREE.BoxGeometry(4.2, 4.2, 4.2),
+      new THREE.MeshBasicMaterial({ map: centerCubeTexture })
+    );
+
+    window.addEventListener('click', onDocumentMouseDown, false);
+      var raycaster = new THREE.Raycaster();
+      var mouse = new THREE.Vector2();
+      function onDocumentMouseDown( event ) {
+        event.preventDefault();
+        mouse.x = ( event.clientX / renderer.domElement.clientWidth ) * 2 - 1;
+        mouse.y = - ( event.clientY / renderer.domElement.clientHeight ) * 2 + 1;
+        raycaster.setFromCamera( mouse, camera );
+        var intersects = raycaster.intersectObjects( scene.children );
+if ( intersects.length > 0 ) {
+    intersects[0].object.callback();
+}}
+
+    function aboutMeLink() {
+      window.location = "http://localhost:3000/about";
+    }
+
+    centerCube.name = 'about_me';
+    centerCube.callback = function() {aboutMeLink();}
+
+    scene.add(centerCube);
+
+    centerCube.position.z = 219.33;
+    centerCube.position.x = 4;
+    centerCube.position.y = 4;
+
+
+
 
     function addStarYellow() {
       const geometry = new THREE.SphereGeometry(0.075, 0.5, 0.5);
@@ -318,6 +355,7 @@ if ( intersects.length > 0 ) {
       requestAnimationFrame(animate);
 
       lastCube.rotation.y += 0.005;
+      centerCube.rotation.y += 0.005;
 
       renderer.render(scene, camera);
       controls.update();
