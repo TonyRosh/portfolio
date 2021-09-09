@@ -243,11 +243,11 @@ export class Home extends Component {
 
       
     
-    const lastTexture = new THREE.TextureLoader().load('https://i.imgur.com/gvoQNlW.jpg');
+    const linkCubeTexture = new THREE.TextureLoader().load('https://i.imgur.com/gvoQNlW.jpg');
 
     const lastCube = new THREE.Mesh(
       new THREE.BoxGeometry(4.2, 4.2, 4.2),
-      new THREE.MeshBasicMaterial({ map: lastTexture })
+      new THREE.MeshBasicMaterial({ map: linkCubeTexture })
     );
 
     window.addEventListener('click', onDocumentMouseDown, false);
@@ -276,32 +276,11 @@ if ( intersects.length > 0 ) {
     lastCube.position.x = 4;
     lastCube.position.y = 4;
 
-
-    const centerCubeTexture = new THREE.TextureLoader().load('https://i.imgur.com/gvoQNlW.jpg');
-
     const centerCube = new THREE.Mesh(
       new THREE.BoxGeometry(4.2, 4.2, 4.2),
-      new THREE.MeshBasicMaterial({ map: centerCubeTexture })
+      new THREE.MeshBasicMaterial({ map: linkCubeTexture })
     );
-
-    window.addEventListener('click', onDocumentMouseDown, false);
-      var raycaster = new THREE.Raycaster();
-      var mouse = new THREE.Vector2();
-      function onDocumentMouseDown( event ) {
-        event.preventDefault();
-        mouse.x = ( event.clientX / renderer.domElement.clientWidth ) * 2 - 1;
-        mouse.y = - ( event.clientY / renderer.domElement.clientHeight ) * 2 + 1;
-        raycaster.setFromCamera( mouse, camera );
-        var intersects = raycaster.intersectObjects( scene.children );
-if ( intersects.length > 0 ) {
-    intersects[0].object.callback();
-}}
-
-    function aboutMeLink() {
-      window.location = "http://localhost:3000/about";
-    }
-
-    centerCube.name = 'about_me';
+    
     centerCube.callback = function() {aboutMeLink();}
 
     scene.add(centerCube);
