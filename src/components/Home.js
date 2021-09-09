@@ -267,9 +267,9 @@ if ( intersects.length > 0 ) {
 
     scene.add(lastCube);
 
-    lastCube.position.z = 158.33;
-    lastCube.position.x = 3;
-    lastCube.position.y = 3;
+    lastCube.position.z = 119.33;
+    lastCube.position.x = 4;
+    lastCube.position.y = 4;
 
     function addStarYellow() {
       const geometry = new THREE.SphereGeometry(0.075, 0.5, 0.5);
