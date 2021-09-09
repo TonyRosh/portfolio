@@ -9,11 +9,12 @@ function Navbar() {
                 <div className="inline-flex py-3 px-3 my-6 items-center">
                 <NavLink
                         to="/about"
-                        className="inline-flex items-center my-12 mx-1 mr-1 rounded text-yellow-500 text-center hover:text-purple-900"
+                        className="inline-flex items-center my-12 mx-1 mr-1 rounded text-yellow-500 text-center hover:text-purple-900 sticky"
                         activeClassName="text-purple-900 bg-yellow-500"
                     >
                         <SocialIcon
                         url="/"
+                        label="Portfolio"
                         className="mr-4"
                         target="_blank"
                         fgColor="#fff"
