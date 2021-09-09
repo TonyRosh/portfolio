@@ -67,7 +67,7 @@ canvas {
   display: flex;
   justify-content: center;
   color: #0bbe0b;
-  font-size: x-large;
+  font-size: 2rem;
   font-weight: bolder;
   font-family: monospace;
 }

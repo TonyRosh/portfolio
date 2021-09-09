@@ -268,7 +268,7 @@ if ( intersects.length > 0 ) {
 }}
 
     function aboutMeLink() {
-      window.location = "http://localhost:3000/about";
+      window.location = "https://thirsty-schwartz.netlify.app/about";
     }
 
     lastCube.name = 'about_me';
