@@ -12,19 +12,20 @@ function Typing() {
                     startDelay={500}
                     cursorColor="#00ff00"
                     multiText={[
-                        'Fullstack Web Developer',
+                        'Software Engineer',
                         'Lifelong Learner',
-                        'Responsive Design',
-                        'Merrymaker',
                         'Pizza Enthusiast',
+                        'Merrymaker',
                         'Music Producer',
                         'Foodie',
+                        'Web Designer',
                         'Beach Addict',
-                        'Concert Goer',
+                        'Concert Reveler',
                         'Dog Lover',
+                        'Halloween Fanatic',
                         'Adventurer',
                         'Kind Human Being',
-                        'Tony Roscioli'
+                        'Fullstack Web Developer',
                     ]}
                     multiTextDelay={1500}
                     typeSpeed={75}

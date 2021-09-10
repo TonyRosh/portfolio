@@ -36,7 +36,7 @@ function Navbar() {
                         Blog Posts
                     </NavLink>
                 </nav>
-                <div className="inline-flex py-2 px-2 my-5 items-center absolute right-0">
+                <div className="inline-flex py-6 px-2 my-5 items-center absolute right-0">
                     <SocialIcon
                         url="https://www.linkedin.com/in/tony-roscioli-dev/"
                         className="mr-3"

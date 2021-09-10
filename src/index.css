@@ -30,46 +30,47 @@ canvas {
   width: 100vw;
 }
 
-.click-here {
-  z-index: 1000000;
-}
-
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .about-image {
   display: flex;
   justify-content: center;
-  align-items: center;
+  height: 100vh;
+  padding: 0;
 }
 
 .image {
   position: absolute;
-  bottom: 0;
   z-index: -1;
 }
 
 .background {
   position: absolute;
-  bottom: 0;
   z-index: -2;
 }
 
 .speech-bubble {
   position: absolute;
-  bottom: 0;
   z-index: -1;
 }
 
 .typing {
   display: flex;
   justify-content: center;
-  color: #59f12b;
+  color: #1eff00;
   font-weight: bolder;
   font-family: 'Press Start 2P', cursive;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: solid thin tomato; */
+  height: 100vh;
+  text-align: center;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
 }
 
 /* .homeBg {
