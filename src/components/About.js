@@ -68,44 +68,43 @@ function About() {
             <div className="skills-container">
                 <div className='skill'>
                     <div className='front-end-skills'>
-                        <h2>Front End</h2>
+                        <h2 data-aos="zoom-in-up">Front End</h2>
                         <ul>
-                            <li>React w/ Router</li>
-                            <li>JavaScript</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
+                            <li data-aos="fade-up-left">React w/ Router</li>
+                            <li data-aos="fade-up-left">JavaScript</li>
+                            <li data-aos="fade-up-left">HTML</li>
+                            <li data-aos="fade-up-left">CSS</li>
                         </ul>
                     </div>
                 </div>
                     <div className='skill'>
                     <div className='design-skills'>
-                        <h2>UX/UI DESIGN</h2>
+                        <h2 data-aos="zoom-in-up">UX/UI DESIGN</h2>
                         <ul>
-                            <li>THREE.js</li>
-                            <li>Bootstrap</li>
-                            <li>Tailwind</li>
+                            <li data-aos="fade-up-right">THREE.js</li>
+                            <li data-aos="fade-up-right">Tailwind</li>
+                            <li data-aos="fade-up-right">Bootstrap</li>
                         </ul>
                     </div>
                     </div>
                     <div className='skill'>
                     <div className="back-end-skills">
-                        <h2>Back End</h2>
+                        <h2 data-aos="zoom-in-up">Back End</h2>
                         <ul>
-                            <li>Ruby</li>
-                            <li>Rails</li>
-                            <li>JWT</li>
+                            <li data-aos="fade-up-left">Ruby</li>
+                            <li data-aos="fade-up-left">Rails</li>
+                            <li data-aos="fade-up-left">JWT</li>
                         </ul>
                     </div>
                     </div>
                     <div className='skill'>
                     <div className="other-skills">
-                        <h2>Other Skills</h2>
+                        <h2 data-aos="zoom-in-up">Other Skills</h2>
                         <ul>
-                            <li>GitHub</li>
-                            <li>Netlify</li>
-                            <li>Written & Verbal Communication</li>
-                            <li>Client Relationships</li>
-                            <li>Conflict Resolution</li>
+                            <li data-aos="fade-up-right">GitHub</li>
+                            <li data-aos="fade-up-right">Netlify</li>
+                            <li data-aos="fade-up-right">Written & Verbal Communication</li>
+                            <li data-aos="fade-up-right">Client Relationships</li>
                         </ul>
                     </div>
                 </div>

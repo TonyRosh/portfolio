@@ -10,7 +10,7 @@ function Typing() {
                         fontFamily: 'Press Start 2P',
                     }}
                     startDelay={500}
-                    cursorColor="#00ff00"
+                    cursorColor="#d3d3d3"
                     multiText={[
                         'Software Engineer',
                         'Lifelong Learner',

@@ -61,7 +61,7 @@ canvas {
 .typing {
   display: flex;
   justify-content: center;
-  color: #ffffff;
+  color: #d3d3d3;
   font-weight: bolder;
   font-family: 'Press Start 2P', cursive;
 }
@@ -136,6 +136,16 @@ canvas {
       #000000
     ) 1 100%;
   padding: 1rem;
+  list-style: none;
+}
+
+.front-end-skills li::before {
+  content: "\2022";
+  color: #006d80; /* Change the color */
+  font-size: 2rem;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 2rem; /* Also needed for space (tweak if needed) */
 }
 
 .front-end-skills h2 {
@@ -162,6 +172,16 @@ canvas {
       #000000
     ) 1 0 100%;
   padding: 1rem;
+  list-style: none;
+}
+
+.design-skills li::before {
+  content: "\2022";
+  color: #800080; /* Change the color */
+  font-size: 2rem;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 2rem; /* Also needed for space (tweak if needed) */
 }
 
 .design-skills h2 {
@@ -188,6 +208,16 @@ canvas {
       #000000
     ) 1 0 100%;
   padding: 1rem;
+  list-style: none;
+}
+
+.back-end-skills li::before {
+  content: "\2022";
+  color: #800080; /* Change the color */
+  font-size: 2rem;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 2rem; /* Also needed for space (tweak if needed) */
 }
 
 .back-end-skills h2 {
@@ -213,6 +243,15 @@ canvas {
       #800080, 
       #000000
     ) 1 100%;
+}
+
+.other-skills li::before {
+  content: "\2022";
+  color: #006d80; /* Change the color */
+  font-size: 2rem;
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 2rem; /* Also needed for space (tweak if needed) */
 }
 
 .other-skills h2 {
