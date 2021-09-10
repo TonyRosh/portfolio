@@ -32,16 +32,8 @@ function About() {
         <div className='about-text'>
                 <h2>Welcome!</h2>
                 <p>I'm Tony Roscioli, a 30 year-old Full-Stack Software Engineer residing in colorful Colorado.</p>
-                <p>I am eagerly seeking remote opprotunities where I can bring my expertise and enthusiasim for web design and development!</p>
-
-
-
-
-
-
-
+                <p>I am eagerly seeking remote opprotunities to welcome my expertise and enthusiasim for web design and development!</p>
                 
-                <p>With enthusiasm for web design and development, I am eager to bring my expertise to an exciting new workplace!</p>
         </div>
         </div>
     )
