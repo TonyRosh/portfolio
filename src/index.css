@@ -30,6 +30,12 @@ canvas {
   width: 100vw;
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .about-image {
   display: flex;
   justify-content: center;
@@ -55,17 +61,22 @@ canvas {
 .typing {
   display: flex;
   justify-content: center;
-  color: #1eff00;
+  color: #ffffff;
   font-weight: bolder;
   font-family: 'Press Start 2P', cursive;
+}
+
+.about-text-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .about-text {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: solid thin tomato; */
-  height: 100vh;
+  height: 100%;
   text-align: center;
 }
 
@@ -73,11 +84,140 @@ canvas {
   font-size: 2.5rem;
 }
 
-/* .homeBg {
-  background-image: url(bg.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+.scroll-div {
+  width: 100%;
+  padding-bottom: 7rem;
+}
+
+.scroll-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.scrolling-text {
+  position: absolute;
+  font-size: 5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Saira Condensed", cursive;
+  min-width: 100%;
+  /* font-family: 'Press Start 2P', cursive; */
+}
+
+.skills-container {
   height: 100vh;
-  width: auto;
-} */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.front-end-skills {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  right: 0;
+  text-align: center;
+  border-style: solid;
+  border-width: .25rem;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      #800080, 
+      #000000
+    ) 1 100%;
+  padding: 1rem;
+}
+
+.front-end-skills h2 {
+  padding-bottom: 2rem;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  padding: .5rem;
+}
+
+.design-skills {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  left: 0;
+  text-align: center;
+  border-style: solid;
+  border-width: .25rem;
+  border-image: 
+    linear-gradient(
+      to right, 
+      #006d80, 
+      #000000
+    ) 1 0 100%;
+  padding: 1rem;
+}
+
+.design-skills h2 {
+  padding-bottom: 2rem;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  padding: .5rem;
+}
+
+.back-end-skills {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  right: 0;
+  text-align: center;
+  border-style: solid;
+  border-width: .25rem;
+  border-image: 
+    linear-gradient(
+      to left, 
+      #006d80, 
+      #000000
+    ) 1 0 100%;
+  padding: 1rem;
+}
+
+.back-end-skills h2 {
+  padding-bottom: 2rem;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  padding: .5rem;
+}
+
+.other-skills {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  left: 0;
+  text-align: center;
+  border-style: solid;
+  border-width: .25rem;
+  border-image: 
+    linear-gradient(
+      to top, 
+      #800080, 
+      #000000
+    ) 1 100%;
+}
+
+.other-skills h2 {
+  padding-bottom: 2rem;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  padding: .5rem;
+}
