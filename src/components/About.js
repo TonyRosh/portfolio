@@ -4,6 +4,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { SocialIcon } from "react-social-icons";
+
 gsap.registerPlugin(ScrollTrigger);
 
 function About() {
@@ -69,7 +71,7 @@ function About() {
             <div className='about-text' data-aos="zoom-in-up">
                     <h2>Welcome!</h2>
                     <p>I'm Tony Roscioli, a 30 year-old Full-Stack Software Engineer residing in colorful Colorado.</p>
-                    <p>I am eagerly seeking remote opprotunities to welcome my expertise and enthusiasim for web design and development! If you or your team are pursuing a passionate and motivated Full-Stack Web Developer, <strong><u><a href="mailto:adrprogramming@gmail.com">lets get in touch!</a></u></strong></p>
+                    <p>I am eagerly seeking remote opprotunities to welcome my expertise and enthusiasim for web design and development! If you or your team are pursuing a passionate and motivated Full-Stack Web Developer, <strong><u><a href="mailto:adrprogramming@gmail.com">lets get in touch! ✉️</a></u></strong></p>
             </div>
             </div>
             <div className="scroll-div">
@@ -84,10 +86,10 @@ function About() {
                     <div className='front-end-skills'>
                         <h2 data-aos="zoom-in-up">Front End</h2>
                         <ul>
-                            <li data-aos="fade-up-left">React w/ Router</li>
-                            <li data-aos="fade-up-left">JavaScript</li>
-                            <li data-aos="fade-up-left">HTML</li>
-                            <li data-aos="fade-up-left">CSS</li>
+                            <li data-aos="zoom-in-right">React w/ Router</li>
+                            <li data-aos="zoom-in-right">JavaScript</li>
+                            <li data-aos="zoom-in-right">HTML</li>
+                            <li data-aos="zoom-in-right">CSS</li>
                         </ul>
                     </div>
                 </div>
@@ -95,9 +97,9 @@ function About() {
                     <div className='design-skills'>
                         <h2 data-aos="zoom-in-up">UX/UI DESIGN</h2>
                         <ul>
-                            <li data-aos="fade-up-right">THREE.js</li>
-                            <li data-aos="fade-up-right">Tailwind</li>
-                            <li data-aos="fade-up-right">Bootstrap</li>
+                            <li data-aos="zoom-in-left">THREE.js</li>
+                            <li data-aos="zoom-in-left">Tailwind</li>
+                            <li data-aos="zoom-in-left">Bootstrap</li>
                         </ul>
                     </div>
                     </div>
@@ -105,9 +107,9 @@ function About() {
                     <div className="back-end-skills">
                         <h2 data-aos="zoom-in-up">Back End</h2>
                         <ul>
-                            <li data-aos="fade-up-left">Ruby</li>
-                            <li data-aos="fade-up-left">Rails</li>
-                            <li data-aos="fade-up-left">JWT</li>
+                            <li data-aos="zoom-in-right">Ruby</li>
+                            <li data-aos="zoom-in-right">Rails</li>
+                            <li data-aos="zoom-in-right">JWT</li>
                         </ul>
                     </div>
                     </div>
@@ -115,10 +117,10 @@ function About() {
                     <div className="other-skills">
                         <h2 data-aos="zoom-in-up">Other Skills</h2>
                         <ul>
-                            <li data-aos="fade-up-right">GitHub</li>
-                            <li data-aos="fade-up-right">Netlify</li>
-                            <li data-aos="fade-up-right">Written & Verbal Communication</li>
-                            <li data-aos="fade-up-right">Client Relationships</li>
+                            <li data-aos="zoom-in-left">GitHub</li>
+                            <li data-aos="zoom-in-left">Netlify</li>
+                            <li data-aos="zoom-in-left">Written & Verbal Communication</li>
+                            <li data-aos="zoom-in-left">Client Relationships</li>
                         </ul>
                     </div>
                 </div>
@@ -126,7 +128,356 @@ function About() {
             <div className="scroll-div2">
                 <div className="scroll-container2">
                     <div ref={skillsRef2} className="scrolling-text2">
-                        <h2>👋🏼THANKS FOR STOPPING BY!👋🏼THANKS FOR STOPPING BY!👋🏼THANKS FOR STOPPING BY!👋🏼THANKS FOR STOPPING BY!👋🏼THANKS FOR STOPPING BY!👋🏼THANKS FOR STOPPING BY!👋🏼THANKS FOR STOPPING BY!👋🏼</h2>
+                    <SocialIcon
+                        url="https://www.linkedin.com/in/tony-roscioli-dev/"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://github.com/TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.facebook.com/tony.roscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://twitter.com/tonyRoscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://medium.com/@TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.linkedin.com/in/tony-roscioli-dev/"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://github.com/TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.facebook.com/tony.roscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://twitter.com/tonyRoscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://medium.com/@TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.linkedin.com/in/tony-roscioli-dev/"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://github.com/TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.facebook.com/tony.roscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://twitter.com/tonyRoscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://medium.com/@TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.linkedin.com/in/tony-roscioli-dev/"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://github.com/TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.facebook.com/tony.roscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://twitter.com/tonyRoscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://medium.com/@TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.linkedin.com/in/tony-roscioli-dev/"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://github.com/TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.facebook.com/tony.roscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://twitter.com/tonyRoscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://medium.com/@TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.linkedin.com/in/tony-roscioli-dev/"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://github.com/TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.facebook.com/tony.roscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://twitter.com/tonyRoscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://medium.com/@TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.linkedin.com/in/tony-roscioli-dev/"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://github.com/TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.facebook.com/tony.roscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://twitter.com/tonyRoscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://medium.com/@TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.linkedin.com/in/tony-roscioli-dev/"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://github.com/TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.facebook.com/tony.roscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://twitter.com/tonyRoscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://medium.com/@TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.linkedin.com/in/tony-roscioli-dev/"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://github.com/TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.facebook.com/tony.roscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://twitter.com/tonyRoscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://medium.com/@TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.linkedin.com/in/tony-roscioli-dev/"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://github.com/TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://www.facebook.com/tony.roscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://twitter.com/tonyRoscioli"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
+                    <SocialIcon
+                        url="https://medium.com/@TonyRosh"
+                        className="mr-3"
+                        target="_blank"
+                        fgColor="#fff"
+                        style={{ height: 50, width: 50 }}
+                    />
                     </div>
                 </div>
             </div>

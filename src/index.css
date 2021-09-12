@@ -64,6 +64,7 @@ canvas {
   color: #d3d3d3;
   font-weight: bolder;
   font-family: 'Press Start 2P', cursive;
+  text-align: center;
 }
 
 .about-text-container {
