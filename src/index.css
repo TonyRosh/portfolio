@@ -70,6 +70,8 @@ canvas {
   display: flex;
   flex-direction: column;
   height: 100%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .about-text {
@@ -111,6 +113,7 @@ canvas {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-bottom: 1rem;
 }
 
 .skill {
@@ -127,21 +130,29 @@ canvas {
   width: 50%;
   right: 0;
   text-align: center;
+  background-image: url('https://i.imgur.com/54VlJo8.png');
+  background-size: 25%;
+  transition: all 0.3s ease-in-out;
+  background-repeat: no-repeat;
   border-style: solid;
   border-width: .25rem;
   border-image: 
     linear-gradient(
       to bottom, 
-      #800080, 
+      #7a39b2, 
       #000000
     ) 1 100%;
   padding: 1rem;
   list-style: none;
 }
 
+.front-end-skills:hover {
+  background-size: 30%;
+}
+
 .front-end-skills li::before {
   content: "\2022";
-  color: #006d80; /* Change the color */
+  color: #06f5d8; /* Change the color */
   font-size: 2rem;
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
@@ -163,21 +174,29 @@ canvas {
   width: 50%;
   left: 0;
   text-align: center;
+  background-image: url('https://i.imgur.com/XggNr8B.png');
+  background-size: 25%;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
   border-style: solid;
   border-width: .25rem;
   border-image: 
     linear-gradient(
       to right, 
-      #006d80, 
+      #06f5d8, 
       #000000
     ) 1 0 100%;
   padding: 1rem;
   list-style: none;
 }
 
+.design-skills:hover {
+  background-size: 30%;
+}
+
 .design-skills li::before {
   content: "\2022";
-  color: #800080; /* Change the color */
+  color: #7a39b2; /* Change the color */
   font-size: 2rem;
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
@@ -195,6 +214,10 @@ canvas {
   display: flex;
   flex-direction: column;
   position: absolute;
+  background-image: url('https://i.imgur.com/tQnkAMq.png');
+  background-size: 25%;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
   height: 50%;
   width: 50%;
   right: 0;
@@ -204,16 +227,20 @@ canvas {
   border-image: 
     linear-gradient(
       to left, 
-      #006d80, 
+      #06f5d8, 
       #000000
     ) 1 0 100%;
   padding: 1rem;
   list-style: none;
 }
 
+.back-end-skills:hover {
+  background-size: 30%;
+}
+
 .back-end-skills li::before {
   content: "\2022";
-  color: #800080; /* Change the color */
+  color: #7a39b2; /* Change the color */
   font-size: 2rem;
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
@@ -231,6 +258,10 @@ canvas {
   display: flex;
   flex-direction: column;
   position: absolute;
+  background-image: url('https://i.imgur.com/qCtZnIb.png');
+  background-size: 25%;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
   height: 50%;
   width: 50%;
   left: 0;
@@ -240,14 +271,18 @@ canvas {
   border-image: 
     linear-gradient(
       to top, 
-      #800080, 
+      #7a39b2, 
       #000000
     ) 1 100%;
 }
 
+.other-skills:hover {
+  background-size: 30%;
+}
+
 .other-skills li::before {
   content: "\2022";
-  color: #006d80; /* Change the color */
+  color: #06f5d8; /* Change the color */
   font-size: 2rem;
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
@@ -259,4 +294,25 @@ canvas {
   font-family: 'Press Start 2P', cursive;
   font-size: 1.5rem;
   padding: .5rem;
+}
+
+.scroll-div2 {
+  width: 100%;
+  padding-top: 10rem;
+}
+
+.scroll-container2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.scrolling-text2 {
+  position: absolute;
+  font-size: 5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Saira Condensed", cursive;
+  min-width: 100%;
 }

@@ -30,17 +30,31 @@ function About() {
 
     const skillsRef = useRef(null);
 
-  useEffect(() => {
-    gsap.to(".scrolling-text", {
-      scrollTrigger: {
-        trigger: ".scrolling-text",
-        scrub: 3,
-        start: "top bottom",
-        end: "bottom top"
-      },
-      xPercent: -50
-    });
-  }, []);
+    useEffect(() => {
+        gsap.to(".scrolling-text", {
+            scrollTrigger: {
+            trigger: ".scrolling-text",
+            scrub: 3,
+            start: "top bottom",
+            end: "bottom top"
+        },
+        xPercent: -50
+        });
+    }, []);
+
+    const skillsRef2 = useRef(null);
+
+    useEffect(() => {
+        gsap.to(".scrolling-text2", {
+            scrollTrigger: {
+            trigger: ".scrolling-text2",
+            scrub: 3,
+            start: "top bottom",
+            end: "bottom top",
+        },
+        xPercent: -50
+        });
+    }, []);
 
     
     return (
@@ -106,6 +120,13 @@ function About() {
                             <li data-aos="fade-up-right">Written & Verbal Communication</li>
                             <li data-aos="fade-up-right">Client Relationships</li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+            <div className="scroll-div2">
+                <div className="scroll-container2">
+                    <div ref={skillsRef2} className="scrolling-text2">
+                        <h2>👋🏼THANKS FOR STOPPING BY!👋🏼THANKS FOR STOPPING BY!👋🏼THANKS FOR STOPPING BY!👋🏼THANKS FOR STOPPING BY!👋🏼THANKS FOR STOPPING BY!👋🏼THANKS FOR STOPPING BY!👋🏼THANKS FOR STOPPING BY!👋🏼</h2>
                     </div>
                 </div>
             </div>
