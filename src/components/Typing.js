@@ -25,7 +25,7 @@ function Typing() {
                         'Halloween Fanatic',
                         'Adventurer',
                         'Kind Human Being',
-                        'Fullstack Web Developer',
+                        'Fullstack Developer',
                     ]}
                     multiTextDelay={1500}
                     typeSpeed={75}
