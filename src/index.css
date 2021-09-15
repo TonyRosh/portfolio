@@ -48,7 +48,6 @@ canvas {
 .about-image:active {
   opacity: 0;
   transform: scale(-.5);
-  transform: rotate(-1080deg);
 }
 
 .image {
