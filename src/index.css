@@ -42,13 +42,13 @@ canvas {
   height: 100vh;
   padding: 0;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .about-image:active {
   opacity: 0;
   transform: scale(-.5);
-  transform: rotate(-360deg);
+  transform: rotate(-1080deg);
 }
 
 .image {
@@ -430,4 +430,10 @@ canvas {
 
 .wrapper .button:nth-child(6) span{
   color: #e62117;
+}
+
+@media(max-width: 35.94rem){
+  .wrapper .button:hover {
+    width: 50px;
+  }
 }
