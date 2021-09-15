@@ -438,7 +438,7 @@ canvas {
   }
 
   .about-image:active {
-    opacity: 0;
+    opacity: 1;
     transform: scale(1);
   }
 }
