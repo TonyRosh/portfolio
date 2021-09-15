@@ -60,7 +60,6 @@ function About() {
         });
     }, []);
 
-    
     return (
         <div className="about">
             <Typing />
@@ -185,7 +184,7 @@ function About() {
                             <div className="icon">
                             <FontAwesomeIcon className="icons" icon={faLinkedin} />
                             </div>
-                            <span>LinkedIn</span>
+                            <span><a href="https://www.linkedin.com/in/tony-roscioli-dev/" target="_blank" rel="noreferrer"> LinkedIn</a></span>
                         </div>
                         <div className="button">
                             <div className="icon">
