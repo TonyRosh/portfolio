@@ -329,6 +329,7 @@ canvas {
   display: flex;
   justify-content: center;
   height: 100%;
+  margin-bottom: .75rem;
 }
 
 .wrapper .button {
