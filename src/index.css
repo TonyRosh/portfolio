@@ -89,7 +89,7 @@ canvas {
   height: 100%;
   text-align: center;
   /* text-shadow: -.5px .5px 0 #7a39b2; */
-  text-shadow: -.1px .1px 0 #000000, -.75px .75px 0 #7a39b2;
+  text-shadow: -.1px .1px 0 #000000, -1px 1px 0 #7a39b2;
 }
 
 .about-text h2 {
