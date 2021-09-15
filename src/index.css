@@ -436,4 +436,9 @@ canvas {
   .wrapper .button:hover {
     width: 50px;
   }
+
+  .about-image:active {
+    opacity: 0;
+    transform: scale(1);
+  }
 }
