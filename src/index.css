@@ -369,24 +369,24 @@ canvas {
   transition: all 0.3s ease-out;
 }
 
-.wrapper .button:nth-child(1):hover .icon{
+.wrapper a:nth-child(1):hover .icon{
   background: #0077b5;
 }
-.wrapper .button:nth-child(2):hover .icon{
+.wrapper a:nth-child(2):hover .icon{
   background: #b6b1b0;
 }
-.wrapper .button:nth-child(3):hover .icon{
+.wrapper a:nth-child(3):hover .icon{
   background: #1877f2;
 }
-.wrapper .button:nth-child(4):hover .icon{
+.wrapper a:nth-child(4):hover .icon{
   background: #1DA1F2;
 }
 
-.wrapper .button:nth-child(5):hover .icon{
+.wrapper a:nth-child(5):hover .icon{
   background: #f3faff;
 }
 
-.wrapper .button:nth-child(6):hover .icon{
+.wrapper a:nth-child(6):hover .icon{
   background: #e62117;
 }
 
@@ -408,27 +408,27 @@ canvas {
   transition: all 0.3s ease-out;
 }
 
-.wrapper .button:nth-child(1) span{
+.wrapper a:nth-child(1) span{
   color: #0077b5;
 }
 
-.wrapper .button:nth-child(2) span{
+.wrapper a:nth-child(2) span{
   color: #b6b1b0;
 }
 
-.wrapper .button:nth-child(3) span{
+.wrapper a:nth-child(3) span{
   color: #1877f2;
 }
 
-.wrapper .button:nth-child(4) span{
+.wrapper a:nth-child(4) span{
   color: #1DA1F2;
 }
 
-.wrapper .button:nth-child(5) span{
+.wrapper a:nth-child(5) span{
   color: #f3faff;
 }
 
-.wrapper .button:nth-child(6) span{
+.wrapper a:nth-child(6) span{
   color: #e62117;
 }
 

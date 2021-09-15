@@ -180,42 +180,55 @@ function About() {
                     />
                     </div> */}
                     <div className="wrapper">
+
+
+                    <a href="https://www.linkedin.com/in/tony-roscioli-dev/" target="_blank" rel="noreferrer">
                         <div className="button">
                             <div className="icon">
                             <FontAwesomeIcon className="icons" icon={faLinkedin} />
                             </div>
-                            <span><a href="https://www.linkedin.com/in/tony-roscioli-dev/" target="_blank" rel="noreferrer"> LinkedIn</a></span>
-                        </div>
+                            <span>LinkedIn</span>
+                        </div></a>
+
+                        <a href="https://github.com/TonyRosh" target="_blank" rel="noreferrer">
                         <div className="button">
                             <div className="icon">
                             <FontAwesomeIcon className="icons" icon={faGithub} />
                             </div>
                             <span>GitHub</span>
-                        </div>
+                        </div></a>
+
+                        <a href="https://www.facebook.com/tony.roscioli" target="_blank" rel="noreferrer">
                         <div className="button">
                             <div className="icon">
                             <FontAwesomeIcon className="icons" icon={faFacebook} />
                             </div>
                             <span>Facebook</span>
-                        </div>
+                        </div></a>
+
+                        <a href="https://twitter.com/tonyRoscioli" target="_blank" rel="noreferrer">
                         <div className="button">
                             <div className="icon">
                             <FontAwesomeIcon className="icons" icon={faTwitter} />
                             </div>
                             <span>Twitter</span>
-                        </div>
+                        </div></a>
+
+                        <a href="https://medium.com/@TonyRosh" target="_blank" rel="noreferrer">
                         <div className="button">
                             <div className="icon">
                             <FontAwesomeIcon className="icons" icon={faMedium} />
                             </div>
                             <span>Medium</span>
-                        </div>
+                        </div></a>
+
+                        <a href="https://www.youtube.com/channel/UCcOtaQK0ew-2jXh6Nh81YKw" target="_blank" rel="noreferrer">
                         <div className="button">
                             <div className="icon">
                             <FontAwesomeIcon className="icons" icon={faYoutube} />
                             </div>
                             <span>YouTube</span>
-                        </div>
+                        </div></a>
                     </div>
                 </div>
     )
