@@ -14,25 +14,18 @@ function Navbar() {
                         Tony Roscioli
                     </NavLink>
                     <NavLink
-                        to="/about"
-                        className="inline-flex items-center my-12 mx-1 mr-1 rounded text-white text-center hover:text-gray-500"
-                        activeClassName="text-gray-500 bg-white"
-                    >
-                        About Me!
-                    </NavLink>
-                    <NavLink
-                        to="/project"
+                        to="/projects"
                         className="inline-flex items-center my-12 mx-1 mr-1 rounded text-white text-center hover:text-gray-500"
                         activeClassName="text-gray-500 bg-white"
                     >
                         Projects
                     </NavLink>
                     <NavLink
-                        to="/post"
+                        to="/resume"
                         className="inline-flex items-center my-12 mx-1 mr-1 rounded text-white text-center hover:text-gray-500"
                         activeClassName="text-gray-500 bg-white"
                     >
-                        Blog Posts
+                        Resume
                     </NavLink>
                 </nav>
             </div>

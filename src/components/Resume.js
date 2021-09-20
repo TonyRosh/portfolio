@@ -1,7 +1,7 @@
 import React from 'react'
-import Typing from "./Typing";
+import Typing from './Typing'
 
-function SinglePost() {
+function Resume() {
     return (
         <div>
             <Typing />
@@ -9,4 +9,4 @@ function SinglePost() {
     )
 }
 
-export default SinglePost
+export default Resume

@@ -1,7 +1,7 @@
 import React from 'react'
 import Typing from "./Typing";
 
-function Post() {
+function Projects() {
     return (
         <div>
             <Typing />
@@ -9,4 +9,4 @@ function Post() {
     )
 }
 
-export default Post
+export default Projects
