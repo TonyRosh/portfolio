@@ -9,7 +9,6 @@ function Typing() {
                     textStyle={{
                         fontFamily: 'Press Start 2P',
                     }}
-                    startDelay={500}
                     cursorColor="#d3d3d3"
                     multiText={[
                         'Software Engineer',
