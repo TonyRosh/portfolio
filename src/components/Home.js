@@ -6,7 +6,6 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub, faFacebook, faTwitter, faMedium, faYoutube } from "@fortawesome/free-brands-svg-icons"
-// import { SocialIcon } from "react-social-icons";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -135,53 +134,7 @@ function About() {
                 </div>
             </div>
                     <div className="contact"><h2>Follow Me!</h2></div>
-                    {/* <div className="scrolling-text2">
-                    <SocialIcon
-                        url="https://www.linkedin.com/in/tony-roscioli-dev/"
-                        className="mr-1 ml-1"
-                        target="_blank"
-                        fgColor="#fff"
-                        style={{ height: 50, width: 50 }}
-                    />
-                    <SocialIcon
-                        url="https://github.com/TonyRosh"
-                        className="mr-1 ml-1"
-                        target="_blank"
-                        fgColor="#fff"
-                        style={{ height: 50, width: 50 }}
-                    />
-                    <SocialIcon
-                        url="https://www.facebook.com/tony.roscioli"
-                        className="mr-1 ml-1"
-                        target="_blank"
-                        fgColor="#fff"
-                        style={{ height: 50, width: 50 }}
-                    />
-                    <SocialIcon
-                        url="https://twitter.com/tonyRoscioli"
-                        className="mr-1 ml-1"
-                        target="_blank"
-                        fgColor="#fff"
-                        style={{ height: 50, width: 50 }}
-                    />
-                    <SocialIcon
-                        url="https://medium.com/@TonyRosh"
-                        className="mr-1 ml-1"
-                        target="_blank"
-                        fgColor="#fff"
-                        style={{ height: 50, width: 50 }}
-                    />
-                    <SocialIcon
-                        url="https://www.youtube.com/channel/UCcOtaQK0ew-2jXh6Nh81YKw"
-                        className="mr-1 ml-1"
-                        target="_blank"
-                        fgColor="#fff"
-                        style={{ height: 50, width: 50 }}
-                    />
-                    </div> */}
                     <div className="wrapper">
-
-
                     <a href="https://www.linkedin.com/in/tony-roscioli-dev/" target="_blank" rel="noreferrer">
                         <div className="button">
                             <div className="icon">
