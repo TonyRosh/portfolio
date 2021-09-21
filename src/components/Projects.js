@@ -1,8 +1,6 @@
 import React from 'react'
 import TypeWriterEffect from 'react-typewriter-effect';
 import cssScrollSnapPolyfill from 'css-scroll-snap-polyfill'
-// import { gsap } from 'gsap';
-// import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 function Projects() {
 

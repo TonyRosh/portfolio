@@ -1,7 +1,9 @@
 import React from 'react'
 import TypeWriterEffect from 'react-typewriter-effect';
 
+
 function Resume() {
+
     return (
         <div>
         <div className='projects-typing'>
@@ -11,12 +13,15 @@ function Resume() {
                     }}
                     cursorColor="#ffffff"
                     multiText={[
-                        'RESUME COMING SOON!',
+                        'RESUME',
                     ]}
                     multiTextDelay={2500}
                     typeSpeed={150}
                 />
-                </div>
+        </div>
+        <div className="resume-div">
+        <img className="resume" src="https://i.imgur.com/rlJtb62.png" alt="resume" />
+        </div>
         </div>
     )
 }
