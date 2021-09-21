@@ -127,6 +127,7 @@ function About() {
                         <ul>
                             <li data-aos="zoom-in-left">GitHub</li>
                             <li data-aos="zoom-in-left">Netlify</li>
+                            <li data-aos="zoom-in-left">Heroku</li>
                             <li data-aos="zoom-in-left">Written & Verbal Communication</li>
                             <li data-aos="zoom-in-left">Client Relationships</li>
                         </ul>

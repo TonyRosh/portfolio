@@ -19,7 +19,7 @@ init();
                     textStyle={{
                         fontFamily: 'Press Start 2P',
                     }}
-                    cursorColor="#d3d3d3"
+                    cursorColor="#ffffff"
                     multiText={[
                         'PROJECTS',
                     ]}
@@ -51,12 +51,12 @@ init();
 	</section>
 </div>
 <div>
-            <div className='projects-typing'>
+            <div className='swipe-right-typing'>
                 <TypeWriterEffect
                     textStyle={{
                         fontFamily: 'Press Start 2P',
                     }}
-                    cursorColor="#d3d3d3"
+                    cursorColor="#ffffff"
                     multiText={[
                         'SWIPE RIGHT',
                     ]}

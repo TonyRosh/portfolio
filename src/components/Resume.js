@@ -9,7 +9,7 @@ function Resume() {
                     textStyle={{
                         fontFamily: 'Press Start 2P',
                     }}
-                    cursorColor="#d3d3d3"
+                    cursorColor="#ffffff"
                     multiText={[
                         'RESUME COMING SOON!',
                     ]}
