@@ -58,7 +58,7 @@ init();
                     }}
                     cursorColor="#ffffff"
                     multiText={[
-                        'SWIPE RIGHT',
+                        '← SWIPE →',
                     ]}
                     multiTextDelay={1500}
                     typeSpeed={75}
