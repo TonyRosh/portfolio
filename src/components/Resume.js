@@ -5,7 +5,7 @@ import TypeWriterEffect from 'react-typewriter-effect';
 function Resume() {
 
     return (
-        <div>
+        <div className='resume-page'>
         <div className='projects-typing'>
             <TypeWriterEffect
                     textStyle={{
@@ -19,9 +19,24 @@ function Resume() {
                     typeSpeed={150}
                 />
         </div>
-        <div className="resume-div">
-        <img className="resume" src="https://i.imgur.com/rlJtb62.png" alt="resume" />
+        <div className="resume-image">
+        <img className="resume" src="https://i.imgur.com/ln4gxjH.png" alt="resume" />
         </div>
+        <a href='https://drive.google.com/file/d/1l89jH9I7hev-7TvkJSnSpN6w5-QbGoVo/view?usp=sharing' target="_blank" rel="noopener noreferrer" download>
+        <div className='projects-typing'>
+            <TypeWriterEffect
+                    textStyle={{
+                        fontFamily: 'Press Start 2P',
+                    }}
+                    cursorColor="#ffffff"
+                    multiText={[
+                        'Take one for the road!',
+                    ]}
+                    multiTextDelay={2500}
+                    typeSpeed={150}
+                />
+        </div>
+        </a>
         </div>
     )
 }
