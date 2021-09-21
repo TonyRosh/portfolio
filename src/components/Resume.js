@@ -6,7 +6,7 @@ function Resume() {
 
     return (
         <div className='resume-page'>
-        <div className='projects-typing'>
+        <div className='resume-typing'>
             <TypeWriterEffect
                     textStyle={{
                         fontFamily: 'Press Start 2P',
@@ -23,14 +23,14 @@ function Resume() {
         <img className="resume" src="https://i.imgur.com/ln4gxjH.png" alt="resume" />
         </div>
         <a href='https://drive.google.com/file/d/1l89jH9I7hev-7TvkJSnSpN6w5-QbGoVo/view?usp=sharing' target="_blank" rel="noopener noreferrer" download>
-        <div className='projects-typing'>
+        <div className='take-one-typing'>
             <TypeWriterEffect
                     textStyle={{
                         fontFamily: 'Press Start 2P',
                     }}
-                    cursorColor="#ffffff"
+                    cursorColor="#000000"
                     multiText={[
-                        'Take one for the road!',
+                        'Take a copy here!',
                     ]}
                     multiTextDelay={2500}
                     typeSpeed={150}

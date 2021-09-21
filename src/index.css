@@ -95,6 +95,28 @@ li  {
   text-shadow: -.15px .15px 0 #06f5d8, -.3px .3px 0 #7a39b2;
 }
 
+.resume-typing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  text-shadow: -.15px .15px 0 #06f5d8, -.3px .3px 0 #7a39b2;
+}
+
+.take-one-typing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  text-shadow: -.15px .15px 0 #06f5d8, -.3px .3px 0 #7a39b2;
+}
+
 .about-text-container {
   display: flex;
   flex-direction: column;
