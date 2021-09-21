@@ -28,9 +28,9 @@ function Resume() {
                     textStyle={{
                         fontFamily: 'Press Start 2P',
                     }}
-                    cursorColor="#000000"
+                    cursorColor="#ffffff"
                     multiText={[
-                        'Take a copy here!',
+                        'Take a copy!',
                     ]}
                     multiTextDelay={2500}
                     typeSpeed={150}
