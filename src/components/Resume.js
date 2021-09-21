@@ -30,7 +30,7 @@ function Resume() {
                     }}
                     cursorColor="#ffffff"
                     multiText={[
-                        'Take a copy!',
+                        '👉🏼 Take a copy!',
                     ]}
                     multiTextDelay={2500}
                     typeSpeed={150}
