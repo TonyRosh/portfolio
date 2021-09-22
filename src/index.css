@@ -43,7 +43,7 @@ li  {
   height: 100vh;
   padding: 0;
   cursor: pointer;
-  transition: all 0.25s ease-in-out;
+  transition: all 0.01s ease-in-out;
 }
 
 .about-image:active {
