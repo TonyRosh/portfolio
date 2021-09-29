@@ -474,6 +474,10 @@ li  {
     opacity: 1;
     transform: scale(1);
   }
+
+  .about-image {
+    margin-bottom: 1rem;
+  }
 }
 
 .slider {
