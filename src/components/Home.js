@@ -79,7 +79,7 @@ function About() {
             <div className='about-text' data-aos="zoom-in-up">
                     <h2>Welcome!</h2>
                     <p>I'm Tony Roscioli, a 30 year-old Full-Stack Software Engineer residing in colorful Colorado.</p>
-                    <p>I am eagerly seeking remote opprotunities to welcome my expertise and enthusiasim for web design and development! If you or your team are pursuing a passionate and motivated Full-Stack Web Developer, <strong><u><a href="mailto:adrprogramming@gmail.com">lets get in touch! ✉️</a></u></strong></p>
+                    <p>I am eagerly seeking remote opprotunities to welcome my expertise and enthusiasim for web design and development! If you or your team are pursuing a passionate and motivated Full-Stack Web Developer, <strong><u><a href="mailto:tonyrosciolidev@gmail.com">lets get in touch! ✉️</a></u></strong></p>
             </div>
             </div>
             <div className="scroll-div">
